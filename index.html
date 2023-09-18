@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Lista de Comidas</title> 
+    <link rel="stylesheet" href="style.css">
 </head>
-<header></header>
-<section>
-  <ul>
-    <li>1.Tacos Mexicanos</li>
-    <li>2.Pasta Alfredo</li>
-    <li>3.Omelette</li>
-    <li>4.Sopa de Maricos</li>
-    <li>5.Camarones al Ajillo </li>
-    <li>6.cheesecake</li>
-    <li>7.Ensalada de Atún</li>
-  </ul>
-</section>
-
 <body>
-    
+    <nav>
+        <ul class="menu-horizontal">
+          <li><a href="#">Inicio</a></li>
+          <li>
+            <a href="#">Aperitivos</a>
+            <ul class="menu-vertical">
+              <li><a href="#">Anafres</a></li>
+              <li><a href="#">Bolitas de Queso</a></li>
+              <li><a href="#">Chiken Fingers</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Plato Principal</a>
+            <ul class="menu-vertical">
+              <li><a href="#">Camarones al Ajillo</a></li>
+              <li><a href="#">Pasta Alfredo</a></li>
+              <li><a href="#">Omelette</a></li>
+              <li><a href="#">Tacos Mexicanos</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Postres</a>
+            <ul class="menu-vertical">
+              <li><a href="#">Cheesecake</a></li>
+              <li><a href="#">Pan de Banano</a></li>
+              <li><a href="#">Flan de coco</a></li>
+              <li><a href="#">Chocobananos</a></li>
+            </ul>
+          </li>
+        </ul>
+    </nav>
 </body>
 </html>
